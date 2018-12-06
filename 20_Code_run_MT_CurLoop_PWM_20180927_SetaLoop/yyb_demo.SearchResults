@@ -1,0 +1,6 @@
+---- RCC_APB1Periph_TIM2 Matches (5 in 3 files) ----
+Stm32f10x_rcc.c (stm32f10x_fwlib\src):  *     @arg RCC_APB1Periph_TIM2, RCC_APB1Periph_TIM3, RCC_APB1Periph_TIM4,
+Stm32f10x_rcc.c (stm32f10x_fwlib\src):  *     @arg RCC_APB1Periph_TIM2, RCC_APB1Periph_TIM3, RCC_APB1Periph_TIM4,
+Stm32f10x_rcc.h (stm32f10x_fwlib\inc):#define RCC_APB1Periph_TIM2              ((uint32_t)0x00000001)
+Stm32f10x_tim.c (stm32f10x_fwlib\src):    RCC_APB1PeriphResetCmd(RCC_APB1Periph_TIM2, ENABLE);
+Stm32f10x_tim.c (stm32f10x_fwlib\src):    RCC_APB1PeriphResetCmd(RCC_APB1Periph_TIM2, DISABLE);
